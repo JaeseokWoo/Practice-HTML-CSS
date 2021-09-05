@@ -285,6 +285,17 @@ body {
     }
 }
 
+footer {
+    color: #fff;
+    color: var(--text-bright-color);
+    background-color: #2B5566;
+    background-color: var(--dark-color);
+}
+
+footer .container {
+    padding: 40px 20px;
+}
+
 .footA h2 {
     margin-top: 0;
     margin-bottom: 10px;
