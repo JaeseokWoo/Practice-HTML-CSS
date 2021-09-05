@@ -318,6 +318,10 @@ footer .container {
     text-decoration: none;
 }
 
+.footB div {
+    margin-bottom: 20px;
+}
+
 .footB h3 {
     margin-top: 0;
     margin-bottom: 10px;
@@ -341,4 +345,18 @@ footer .container {
 
 .footB a:hover {
     background-color: rgba(0,0,0,0.3);
+}
+
+@media (min-width: 768px) {
+    .footB {
+        display: flex;
+    }
+
+    .footB div {
+        flex: 1;
+    }
+
+    .footB div:not(:first-child) {
+        margin-left: 40px;
+    }
 }
