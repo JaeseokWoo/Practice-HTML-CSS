@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,25 +9,26 @@
     <script src="https://use.fontawesome.com/926fe18a63.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
-        $(function(){
-            $(".headC").click(function() {
+        $(function () {
+            $(".headC").click(function () {
                 $(".headB").slideToggle();
             });
         });
     </script>
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="container-small">
                 <a href="index.html" class="headA">LOGGER</a>
-            
-            <button type="button" class="headC">
-                <span class="fa fa-bars" title="MENU"></span>
-            </button>
+
+                <button type="button" class="headC">
+                    <span class="fa fa-bars" title="MENU"></span>
+                </button>
             </div>
-        
+
             <nav class="headB">
                 <ul>
                     <li><a href="index.html">TOP</a></li>
@@ -44,7 +46,23 @@
             <p>맛있고 즐거운 라이프로그</p>
         </div>
     </section>
-    
+
+    <section class="listA">
+        <div class="container">
+            <article>
+                <a href="#">
+                    <div class="photo" style="background-image: url(img/p01.jpg);"></div>
+                    <div class="text">
+                        <h2>노란 꽃으로 꾸며보기</h2>
+                        <p>노란 꽃으로 방을 꾸미면 좋은 일이 있을지도 몰라요. 이유는...</p>
+
+                    </div>
+                </a>
+            </article>
+
+        </div>
+    </section>
+
 
     <footer>
         <div class="container">
@@ -87,7 +105,7 @@
                             </a>
                         </li>
                     </ul>
-                    
+
                 </nav>
             </div>
 
@@ -130,4 +148,5 @@
         </div>
     </footer>
 </body>
+
 </html>
